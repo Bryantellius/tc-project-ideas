@@ -22,3 +22,7 @@ This repository hosts a number of project ideas and source code for Web Developm
 ### CSS Color Generator
 
 In this project, you will work with JavaScript, HTML and CSS to randomly generate and change the background color (with gradient) of the document.
+
+- [Walkthrough](./src/walkthroughs/css-color-generator)
+- [View Source Code](https://github.com/Bryantellius/css-color-generator)
+
