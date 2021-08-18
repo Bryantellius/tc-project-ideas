@@ -16,7 +16,9 @@ This repository hosts a number of project ideas and source code for Web Developm
 | Study Flashcards                            | HTML, CSS, JS    |
 | Weather App                                 | HTML, CSS, JS    |
 | Number Guessing Game                        | HTML, CSS, JS    |
+| To-Do App                                   | React            |
 | Pokedex                                     | React            |
+| Web Scraper                                 | Node             |
 | Custom Api Resource                         | Node, Express.js |
 
 ### CSS Color Generator
