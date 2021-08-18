@@ -216,6 +216,14 @@ function randomHex() {
 }
 ```
 
+Now that we've written the functions needed for our js script, we need to add a click event listener to the button that invokes the 'generateHexColor' function.
+
+```js
+btn.addEventListener("click", generateHexColor);
+```
+
+Excellent!
+
 [To Top](#css-color-generator)
 
 ### Extra Styling
