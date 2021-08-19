@@ -13,7 +13,7 @@ Check out the video tutorial (COMING SOON)
 3. [Project Setup](#project-setup)
 4. [Steps](#steps)
 5. [Creating the Layout (HTML)](#creating-the-layout)
-6. [JavaScript for Handling User Clicks (JS)](#javascript-for-handling-user-clicks)
+6. [JavaScript for Handling User Searches (JS)](#javascript-for-handling-user-searches)
 7. [Extra Styling (CSS)](#extra-styling)
 8. [Conclusion](#conclusion)
 
@@ -105,6 +105,17 @@ Inside of your body tags, add the following tags and attributes:
 </main>
 ```
 
-Now we have a main tag that encloses the main content of the document. The div with class 'panel' holds the page title (h1), code tag that displays the generated css background declaration, and button to register user clicks.
+Now we have a main tag that encloses the main content of the document. The div with id 'adviceContainer' holds the page title (h1), input field for seach keyword, button to initiate the fetch request for response data, and two divs for displaying previous and saved searches. The div with id 'previousSearches' with populate a list of kept previous searches per session on our app, and the div with id 'savedAdvice' with populate a list of saved searches per session. Both previous and saved search lists will be changed via JavaScript DOM manipulation.
 
 [To Top](#advice-app)
+
+### JavaScript for Handling User Searches
+
+Since we added the 'defer' attribute to our script tag, we can be assured that our js won't load until our html elements do.
+
+At the top of the index.js file, create one variable that we will select and assign the button element.
+
+```js
+const btn = document.getElementById("adviceBtn");
+```
+
